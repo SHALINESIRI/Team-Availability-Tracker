@@ -22,9 +22,9 @@ data = cursor.fetchall()
 
 if len(data) == 0:
     members = [
-        ("Aarav", 1),
-        ("Riya", 0),
-        ("gaurav", 1)
+        ("Hasrith", 1),
+        ("Ashu rao", 0),
+        ("Shaline siri", 1)
     ]
 
     cursor.executemany("INSERT INTO team (name, available) VALUES (?, ?)", members)
